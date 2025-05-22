@@ -14,7 +14,7 @@ name: 'Lighthouse-Badger-Easy'
 
 # INPUTS as environmental variables (env) for not manually triggered workflows 
 env:
-  URLS: # URL(s) to be checked e.g. 'https://github.com/sitdisch https://github.com/mythemeway'
+  URLS: https://nura-j.github.io/al-folio/ # URL(s) to be checked e.g. 'https://github.com/sitdisch https://github.com/mythemeway'
   TOKEN_NAME: NJSECRET # target token name; insert only the name never the real value e.g. 'LIGHTHOUSE_BADGER_TOKEN'
   # THAT'S IT; JUMP TO THE TRIGGERS;
   REPO_BRANCH: '${{ github.repository }} main' # target repo & branch
